@@ -1,6 +1,6 @@
 ### Sample 1
 
-```CS
+```cs
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
@@ -25,7 +25,7 @@ app.Run();
 
 ### Sample 2
 
-```CS
+```cs
 using Microsoft.AspNetCore.DataProtection;
 
 var builder = WebApplication.CreateBuilder(args);
