@@ -1,0 +1,14 @@
+obj
+bin
+.vs
+.vscode
+.idea
+*.user
+**/wwwroot/lib
+packages
+.orig
+**/node_modules/
+**/.bin/
+/Utils/DummyPythonAnalyzer/DummyPythonAnalyzer.Api/MockSystemDb-Development-v2.db
+/Utils/DummyPythonAnalyzer/DummyPythonAnalyzer.Api/MockSystemDb-Development-v2.db-shm
+/Utils/DummyPythonAnalyzer/DummyPythonAnalyzer.Api/MockSystemDb-Development-v2.db-wal
