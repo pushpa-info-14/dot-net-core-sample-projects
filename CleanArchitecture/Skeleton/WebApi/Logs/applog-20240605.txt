@@ -1,0 +1,135 @@
+2024-06-05 10:39:19.467 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-06-05 10:39:19.640 +05:30 [DBG] Hosting starting
+2024-06-05 10:39:20.020 +05:30 [INF] Now listening on: https://localhost:7218
+2024-06-05 10:39:20.021 +05:30 [INF] Now listening on: http://localhost:5009
+2024-06-05 10:39:20.021 +05:30 [DBG] Loaded hosting startup assembly WebApi
+2024-06-05 10:39:20.022 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-06-05 10:39:20.023 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-06-05 10:39:20.023 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-05 10:39:20.024 +05:30 [INF] Hosting environment: Development
+2024-06-05 10:39:20.024 +05:30 [INF] Content root path: C:\Users\USER\Desktop\My Repos\dot-net-core-sample-projects\CleanArchitecture\Skeleton\WebApi
+2024-06-05 10:39:20.025 +05:30 [DBG] Hosting started
+2024-06-05 10:39:20.377 +05:30 [DBG] Connection id "0HN453MK4KV3E" accepted.
+2024-06-05 10:39:20.377 +05:30 [DBG] Connection id "0HN453MK4KV3F" accepted.
+2024-06-05 10:39:20.378 +05:30 [DBG] Connection id "0HN453MK4KV3E" started.
+2024-06-05 10:39:20.378 +05:30 [DBG] Connection id "0HN453MK4KV3F" started.
+2024-06-05 10:39:20.408 +05:30 [DBG] Connection id "0HN453MK4KV3F" received FIN.
+2024-06-05 10:39:20.408 +05:30 [DBG] Connection id "0HN453MK4KV3E" received FIN.
+2024-06-05 10:39:20.416 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-06-05 10:39:20.416 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-06-05 10:39:20.432 +05:30 [DBG] Connection id "0HN453MK4KV3F" stopped.
+2024-06-05 10:39:20.432 +05:30 [DBG] Connection id "0HN453MK4KV3E" stopped.
+2024-06-05 10:39:20.436 +05:30 [DBG] Connection id "0HN453MK4KV3F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-06-05 10:39:20.436 +05:30 [DBG] Connection id "0HN453MK4KV3E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-06-05 10:39:20.694 +05:30 [DBG] Connection id "0HN453MK4KV3G" accepted.
+2024-06-05 10:39:20.699 +05:30 [DBG] Connection id "0HN453MK4KV3G" started.
+2024-06-05 10:39:20.700 +05:30 [DBG] Connection id "0HN453MK4KV3H" accepted.
+2024-06-05 10:39:20.719 +05:30 [DBG] Connection id "0HN453MK4KV3H" started.
+2024-06-05 10:39:20.748 +05:30 [DBG] Connection id "0HN453MK4KV3G" received FIN.
+2024-06-05 10:39:20.759 +05:30 [DBG] Connection 0HN453MK4KV3G established using the following protocol: "Tls13"
+2024-06-05 10:39:20.759 +05:30 [DBG] Connection 0HN453MK4KV3H established using the following protocol: "Tls13"
+2024-06-05 10:39:20.804 +05:30 [DBG] Connection id "0HN453MK4KV3G" is closed. The last processed stream ID was 0.
+2024-06-05 10:39:20.806 +05:30 [DBG] Connection id "0HN453MK4KV3G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-06-05 10:39:20.811 +05:30 [DBG] The connection queue processing loop for 0HN453MK4KV3G completed.
+2024-06-05 10:39:20.814 +05:30 [DBG] Connection id "0HN453MK4KV3G" stopped.
+2024-06-05 10:39:20.856 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7218/swagger - null null
+2024-06-05 10:39:20.980 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-06-05 10:39:20.995 +05:30 [DBG] No candidates found for the request path '/swagger'
+2024-06-05 10:39:20.996 +05:30 [DBG] Request did not match any endpoints
+2024-06-05 10:39:21.012 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7218/swagger - 301 0 null 161.975ms
+2024-06-05 10:39:21.017 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7218/swagger/index.html - null null
+2024-06-05 10:39:21.023 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-06-05 10:39:21.025 +05:30 [DBG] Request did not match any endpoints
+2024-06-05 10:39:21.064 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-06-05 10:39:21.066 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-06-05 10:39:21.083 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-06-05 10:39:21.084 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-06-05 10:39:21.084 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7218/swagger/index.html - 200 null text/html;charset=utf-8 67.8587ms
+2024-06-05 10:39:21.089 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7218/swagger/swagger-ui-bundle.js - null null
+2024-06-05 10:39:21.089 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7218/_vs/browserLink - null null
+2024-06-05 10:39:21.089 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7218/swagger/swagger-ui.css - null null
+2024-06-05 10:39:21.089 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7218/swagger/swagger-ui-standalone-preset.js - null null
+2024-06-05 10:39:21.089 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7218/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-05 10:39:21.094 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2024-06-05 10:39:21.097 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2024-06-05 10:39:21.098 +05:30 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2024-06-05 10:39:21.109 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7218/_framework/aspnetcore-browser-refresh.js - 200 13748 application/javascript; charset=utf-8 20.2345ms
+2024-06-05 10:39:21.108 +05:30 [DBG] Request did not match any endpoints
+2024-06-05 10:39:21.112 +05:30 [DBG] Request did not match any endpoints
+2024-06-05 10:39:21.103 +05:30 [DBG] Request did not match any endpoints
+2024-06-05 10:39:21.142 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-06-05 10:39:21.142 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-06-05 10:39:21.145 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7218/swagger/swagger-ui.css - 200 143943 text/css 56.3182ms
+2024-06-05 10:39:21.146 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7218/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 57.5614ms
+2024-06-05 10:39:21.155 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-05 10:39:21.158 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7218/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 69.109ms
+2024-06-05 10:39:21.170 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7218/_vs/browserLink - 200 null text/javascript; charset=UTF-8 80.8ms
+2024-06-05 10:39:21.456 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7218/swagger/v1/swagger.json - null null
+2024-06-05 10:39:21.462 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-06-05 10:39:21.464 +05:30 [DBG] Request did not match any endpoints
+2024-06-05 10:39:21.482 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7218/swagger/favicon-32x32.png - null null
+2024-06-05 10:39:21.486 +05:30 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2024-06-05 10:39:21.490 +05:30 [DBG] Request did not match any endpoints
+2024-06-05 10:39:21.493 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-06-05 10:39:21.496 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7218/swagger/favicon-32x32.png - 200 628 image/png 14.7135ms
+2024-06-05 10:39:21.535 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7218/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.2887ms
+2024-06-05 10:39:27.749 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7218/WeatherForecast - null null
+2024-06-05 10:39:27.753 +05:30 [DBG] 1 candidate(s) found for the request path '/WeatherForecast'
+2024-06-05 10:39:27.757 +05:30 [DBG] Endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast'
+2024-06-05 10:39:27.759 +05:30 [DBG] Request matched endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2024-06-05 10:39:27.760 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-06-05 10:39:27.763 +05:30 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2024-06-05 10:39:27.774 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2024-06-05 10:39:27.776 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-06-05 10:39:27.777 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-06-05 10:39:27.778 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-06-05 10:39:27.780 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-06-05 10:39:27.781 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-06-05 10:39:27.783 +05:30 [DBG] Executing controller factory for controller WebApi.Controllers.WeatherForecastController (WebApi)
+2024-06-05 10:39:27.784 +05:30 [DBG] Executed controller factory for controller WebApi.Controllers.WeatherForecastController (WebApi)
+2024-06-05 10:39:27.788 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-06-05 10:39:27.794 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-06-05 10:39:27.796 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-06-05 10:39:27.797 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-06-05 10:39:27.798 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-06-05 10:39:27.799 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-06-05 10:39:27.801 +05:30 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2024-06-05 10:39:27.815 +05:30 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 31.2064ms
+2024-06-05 10:39:27.816 +05:30 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2024-06-05 10:39:27.818 +05:30 [INF] HTTP GET /WeatherForecast responded 200 in 54.6886 ms
+2024-06-05 10:39:27.819 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7218/WeatherForecast - 200 null application/json; charset=utf-8 70.434ms
+2024-06-05 10:39:31.016 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7218/WeatherForecast - null null
+2024-06-05 10:39:31.019 +05:30 [DBG] 1 candidate(s) found for the request path '/WeatherForecast'
+2024-06-05 10:39:31.020 +05:30 [DBG] Endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast'
+2024-06-05 10:39:31.021 +05:30 [DBG] Request matched endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2024-06-05 10:39:31.023 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-06-05 10:39:31.025 +05:30 [INF] Executing endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2024-06-05 10:39:31.026 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebApi.WeatherForecast] Get() on controller WebApi.Controllers.WeatherForecastController (WebApi).
+2024-06-05 10:39:31.030 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-06-05 10:39:31.031 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-06-05 10:39:31.033 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-06-05 10:39:31.035 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-06-05 10:39:31.036 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-06-05 10:39:31.037 +05:30 [DBG] Executing controller factory for controller WebApi.Controllers.WeatherForecastController (WebApi)
+2024-06-05 10:39:31.038 +05:30 [DBG] Executed controller factory for controller WebApi.Controllers.WeatherForecastController (WebApi)
+2024-06-05 10:39:31.039 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-06-05 10:39:31.041 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-06-05 10:39:31.042 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-06-05 10:39:31.043 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-06-05 10:39:31.043 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-06-05 10:39:31.044 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-06-05 10:39:31.045 +05:30 [INF] Executing ObjectResult, writing value of type 'WebApi.WeatherForecast[]'.
+2024-06-05 10:39:31.045 +05:30 [INF] Executed action WebApi.Controllers.WeatherForecastController.Get (WebApi) in 8.6441ms
+2024-06-05 10:39:31.047 +05:30 [INF] Executed endpoint 'WebApi.Controllers.WeatherForecastController.Get (WebApi)'
+2024-06-05 10:39:31.047 +05:30 [INF] HTTP GET /WeatherForecast responded 200 in 22.3275 ms
+2024-06-05 10:39:31.048 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7218/WeatherForecast - 200 null application/json; charset=utf-8 32.5124ms
